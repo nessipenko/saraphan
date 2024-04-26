@@ -1,0 +1,486 @@
+@media (max-width: 1919px) {
+    .menu {
+        &__nav {
+            height: 450px;
+        }
+
+        &__header {
+            font-size: 22px;
+            margin-bottom: 25px;
+        }
+
+        &__main-link {
+            font-size: 18px;
+        }
+
+        &__link {
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+    }
+
+    .list {
+        &__li {
+            margin-bottom: 8px;
+        }
+    }
+
+    .rent {
+        &__img {
+            width: 55%;
+        }
+
+        &__title {
+            font-size: 33px;
+            margin-bottom: 15px;
+        }
+
+        &__subtitle {
+            margin-bottom: 15px;
+        }
+
+        &__download {
+            margin-bottom: 15px;
+
+            &_text {
+                font-size: 20px;
+            }
+        }
+
+        &__list {
+            &-title {
+                font-size: 20px;
+                margin-bottom: 20px;
+            }
+
+            &-end {
+                margin-top: 20px;
+            }
+
+
+        }
+    }
+
+    .shops {
+        margin-top: 50px;
+
+        &__title {
+            font-size: 35px;
+        }
+    }
+
+    .rooms {
+        &__wrapper {
+            img {
+                margin-bottom: 45px;
+                max-height: 350px;
+            }
+        }
+
+        &__info {
+            width: 190px;
+            margin-top: 0;
+            margin-bottom: 30px;
+
+            &-num {
+                font-size: 30px;
+                margin-top: 10px;
+            }
+        }
+    }
+
+    .media-img {
+        display: none;
+    }
+
+    .footer {
+        &__logo {
+            width: 150px;
+        }
+
+        &__nav {
+            width: 600px;
+
+            &-link {
+                margin-bottom: 20px;
+                font-size: 14px;
+            }
+        }
+
+        &__search {
+            margin-bottom: 25px;
+        }
+
+        &__social {
+            margin-right: 10px;
+        }
+
+        &__contacts {
+            margin-bottom: 13px;
+            font-size: 12px;
+        }
+    }
+
+}
+
+@media (max-width: 1439px) {
+    .menu {
+        &__nav {
+            height: 370px;
+        }
+
+        &__divider {
+            margin-left: 15px;
+            margin-right: 40px;
+        }
+
+        &__header {
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+
+
+        &__main-link {
+            font-size: 14px;
+        }
+
+        &__link {
+            font-size: 10px;
+            margin-bottom: 0;
+        }
+    }
+
+    .input {
+        width: 250px;
+
+    }
+
+    .header {
+        &__info {
+            width: 800px;
+        }
+    }
+
+    .rent {
+        &__wrapper {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__title {
+            text-align: center;
+        }
+    }
+
+    .rooms {
+        &__wrapper {
+            img {
+                margin-bottom: 30px;
+                max-height: 300px;
+            }
+        }
+
+        &__info {
+            width: 150px;
+
+            &-title {
+                line-height: 17px;
+            }
+
+            &-num {
+                font-size: 25px;
+                margin-top: 0;
+            }
+        }
+    }
+
+    .footer {
+        height: 200px;
+
+        &__logo {
+            width: 120px;
+        }
+
+        &__nav {
+            width: 500px;
+
+            &-link {
+                margin-bottom: 10px;
+                font-size: 12px;
+            }
+        }
+
+        &__search {
+            margin-bottom: 15px;
+        }
+
+        &__social {
+            margin-right: 5px;
+        }
+
+        &__contacts {
+            margin-bottom: 10px;
+            font-size: 10px;
+        }
+    }
+}
+
+@media (max-width: 1023px) {
+    .menu {
+        height: 100%;
+
+        &__nav {
+            height: 80%;
+        }
+
+        &__list {
+            height: 350px;
+        }
+
+        &__items {
+            columns: 1;
+
+        }
+
+        &__header {
+            font-size: 14px;
+            margin-bottom: 8px;
+        }
+
+        &__link {
+            line-height: 25px;
+            max-width: 130px;
+        }
+    }
+
+    .hamburger,
+    .menu__close {
+        right: 50px;
+    }
+
+    .header {
+        &__info {
+            display: none;
+        }
+    }
+
+    .shops {
+        margin-top: 30px;
+
+        &__title {
+            font-size: 30px;
+            line-height: 35px;
+        }
+
+        &__wrapper {
+            flex-direction: column;
+            align-items: center;
+
+            ul {
+                margin-top: 15px;
+            }
+
+        }
+    }
+
+
+    .rooms {
+        margin-bottom: 20px;
+
+        &__wrapper {
+            flex-direction: column;
+
+            img {
+                max-height: 500px;
+                width: 80%;
+                margin: 15px auto;
+
+            }
+        }
+
+        &__info {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+
+            &-total {
+                text-align: center;
+            }
+        }
+    }
+
+    .media-img {
+        display: block;
+    }
+
+    .footer {
+        padding: 25px 0;
+        height: 180px;
+
+        &__logo {
+            display: none;
+        }
+
+        &__search {
+            display: none;
+        }
+
+        &__nav {
+            width: 450px;
+        }
+
+        &__social {
+            margin-right: 0px;
+
+            img {
+                margin-top: 30px;
+                width: 30px;
+                height: 30px;
+            }
+        }
+
+        &__contacts {
+            margin-bottom: 7px;
+            font-size: 9px;
+            line-height: 13px;
+        }
+    }
+}
+
+
+@media (max-width: 767px) {
+    .menu {
+        &__link {
+            max-width: 95px;
+        }
+
+        &__divider {
+            margin: 0 5px;
+        }
+
+        &__header {
+            font-size: 12px;
+
+        }
+    }
+
+    .hamburger,
+    .menu__close {
+        top: 30px;
+        right: 25px;
+    }
+
+    .header {
+        &__logo {
+            width: 80px;
+        }
+    }
+
+    .shops {
+        &__title {
+            text-align: center;
+        }
+    }
+
+    .rooms {
+        margin-top: 35px;
+
+        &__info {
+            margin-bottom: 0;
+
+            &-title {
+                font-size: 12px;
+            }
+
+            &-num {
+                font-size: 18px;
+            }
+
+        }
+    }
+
+    .footer {
+        &__nav {
+            width: 100%;
+        }
+
+        &__social {
+            display: none;
+        }
+
+        &__contacts {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+
+
+    .list {
+        &__li {
+            font-size: 10px;
+        }
+    }
+
+    .rent {
+        &__title {
+            font-size: 20px;
+            margin-bottom: 0;
+        }
+
+        &__subtitle {
+            font-size: 11px;
+            margin-bottom: 5px;
+        }
+
+        &__download {
+            margin-bottom: 5px;
+
+            &_text {
+                font-size: 15px;
+                margin-right: 5px;
+            }
+
+            svg {
+                width: 25px;
+                height: 25px;
+            }
+        }
+
+        &__list {
+            &-title {
+                font-size: 15px;
+                line-height: 20px;
+                margin-bottom: 10px;
+            }
+
+            &-end {
+                display: none;
+            }
+        }
+    }
+
+    .shops {
+        &__slider {
+            width: 100%;
+        }
+    }
+
+    .rooms {
+        &__info {
+            display: none;
+        }
+    }
+
+    .footer {
+        height: 150px;
+
+        &__nav {
+            &-link {
+                font-size: 8px;
+                margin-bottom: 5px;
+            }
+        }
+    }
+}

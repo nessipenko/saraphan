@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'Calibri';
+    src: url('../assests/fonts/Calibri\ Bold.TTF') format('TTF'),
+        url('../assests/fonts/Calibri\ Light.ttf') format('ttf'),
+        url('../assests/fonts/Calibri\ Regular.ttf') format('ttf'),
+
+
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Calibri', sans-serif;
+    height: 100%;
+
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+li,
+a {
+    list-style: none;
+    text-decoration: none;
+
+}
+
+
+
+.list {
+    margin-left: 30px;
+
+    &__li {
+        list-style: disc;
+        color: #CD3B31;
+        margin-bottom: 15px;
+
+        span {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            color: #151516;
+
+        }
+    }
+
+}
+
+.input {
+    position: relative;
+    padding: 11px;
+    font-size: 12px;
+    line-height: 14px;
+    color: #C4C4C4;
+    background: #FFFFFF;
+    box-shadow: 2px 4px 11px rgba(0, 0, 0, 0.17);
+    border-radius: 88px;
+    width: 268px;
+    height: 41px;
+    border: none;
+
+
+    &__img {
+        top: 8px;
+        position: absolute;
+        z-index: 10;
+        right: 15px;
+    }
+}
+
+@import './header/menu';
+@import './header/header';
+@import './main/navigation';
+@import './main/rent';
+@import './main/shops';
+@import './main/rooms';
+@import './footer/footer';
+@import './media/media';

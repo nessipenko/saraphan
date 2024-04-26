@@ -1,0 +1,74 @@
+.rent {
+    margin-top: 20px;
+
+    &__wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    &__img {
+        margin: auto 0;
+        max-width: 65%;
+        height: 100%;
+    }
+
+    &__descr {
+        margin-left: 29px;
+    }
+
+    &__title {
+
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 59px;
+        color: #151516;
+        margin-bottom: 24px;
+    }
+
+    &__subtitle {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        margin-bottom: 34px;
+    }
+
+    &__download {
+        display: flex;
+        align-items: center;
+        height: 32px;
+        margin-bottom: 65px;
+        cursor: pointer;
+
+
+        &_text {
+            margin-right: 15px;
+            font-weight: 400;
+            font-size: 24px;
+            color: #151516;
+
+        }
+    }
+
+
+    &__list {
+        &-title {
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 29px;
+            color: #151516;
+            margin-bottom: 34px;
+
+        }
+
+        &-end {
+            margin-top: 53px;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+
+
+
+        }
+    }
+}
